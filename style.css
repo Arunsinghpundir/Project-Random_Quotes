@@ -75,9 +75,9 @@ h1 {
   box-shadow: 1px 1px 15px 2px #768dd7;
 }
 /* For Mobile Screen */
-@media (min-width: 300px) or (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
   .qut-body {
-    height: auto;
+    height: 250px;
     width: 80%;
     margin-right: 20%;
     display: flex;
@@ -104,7 +104,7 @@ h1 {
     margin-left: 36%;
   }
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .qut-body {
     height: 200px;
     width: 80%;
@@ -133,9 +133,9 @@ h1 {
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1000px) {
   .qut-body {
-    height: 200px;
+    height: auto;
     width: 80%;
     margin-right: 20%;
     margin-left: 10%;
