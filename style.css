@@ -1,0 +1,71 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poor Story', cursive;
+    color: white;
+
+}
+
+body {
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    letter-spacing: 0.4rem;
+    padding-left: 128px;
+    padding-top: 20px;
+    margin-bottom: 75px;
+}
+
+.qut-body {
+    display: flex;
+    border: 2px solid #ddd;
+    margin-right: 618px;
+    margin-left: 38px;
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #768dd7;
+    margin-bottom: 25px;
+}
+
+.quotes {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 50ch;
+}
+
+.writer {
+    font-size: 20px;
+    display: flex;
+    padding-top: 143px;
+    padding-left: -17px;
+    margin-left: -156px;
+    margin-bottom: 20px;
+    width: 16ch;
+}
+
+#button {
+    background-color: white;
+    color: black;
+    padding: 5px 13px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 270px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 3px 10px #768dd7;
+    border-radius: 9px;
+}
+
+#button:focus {
+    outline: none;
+}
